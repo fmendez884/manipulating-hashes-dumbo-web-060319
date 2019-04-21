@@ -11,5 +11,5 @@ def second_challenge
   groceries.each do |key, value|
     bop.push(value)
   end
-  return bop
+  return bop.flatten(1)
 end
